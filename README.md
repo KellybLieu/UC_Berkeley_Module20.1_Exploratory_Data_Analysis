@@ -5,8 +5,8 @@ BACKGROUND <br/>
 My goal is for this capstone is to learn and practice how to apply AI/ML principles with storytelling data visualization techniques. It was important to me to choose a dataset that was easy to obtain and a topic that I can learn from to apply at home or at work. The data comes from Kaggle called, "Longevity Factors." 
 
 WE WILL EXPLORE <br/>
-Which features provide most gain in years of life?
-Which factors provide the most gain in years of life for females?
+What longevity factors provide most gain in years of life?
+What factors provide the most gain in years of life for females?
 What are the top features based on the weighted impact of strength of science on years?
 How do the stronger science features rank against the suggestive features?
 What other insights can I derive from the data?
