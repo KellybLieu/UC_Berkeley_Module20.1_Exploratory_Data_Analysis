@@ -48,8 +48,8 @@ Choose the Best Model
 Perform Hyperparameter Tuning
 Choose the Best Features
 Visualize Results of Predictive Analysis
-
-
+<br/>
+<br/>
 PERSONAL SUCCESS MEASURES <br/>
 	1. Did I use data that I was interested in?
 	2. Did my model answer my questions to help me further understanding of the topic?
