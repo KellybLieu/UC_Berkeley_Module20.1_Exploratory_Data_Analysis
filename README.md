@@ -37,8 +37,8 @@ The next sequence of steps is to perform feature engineering to prepare my datas
 <li>Create combined original dataframe with polynomial dataframe</li>
 <li>Use StandardScaler to scale all my features (except target col)</li>
 <li>Add back target column and I am ready to build my model</li>
-
-
+<br/>
+<br/>
 TECHNIQUES FOR CAPSTONE <br/>
 Exploratory Data Analysis (EAD) and Visualize Results
 Feature Engineering
