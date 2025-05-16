@@ -27,16 +27,16 @@ For the top contributors of reduced longevity are shared between both plots, ind
 
 Furthermore, I will add that I attempted to feature engineer my dataset, however this dataset is very small and it was not necessary to use one-hot encoding nor polynomial features. It was insightful and I plan on 
 
-FEATURE ENGINEERING
+FEATURE ENGINEERING<br/>
 The next sequence of steps is to perform feature engineering to prepare my dataset for building a model. Below I will start with a copy of the previous dataframe and perform the following:<br/>
 
-Identify categorical variables
-Use one-hot encoder on categorical features
-Create interaction terms (multiply factor and strength of science)
-Create polynomial features and create a dataframe (except target col)
-Create combined original dataframe with polynomial dataframe
-Use StandardScaler to scale all my features (except target col)
-Add back target column and I am ready to build my model
+<li>Identify categorical variables</li>
+<li>Use one-hot encoder on categorical features</li>
+<li>Create interaction terms (multiply factor and strength of science)</li>
+<li>Create polynomial features and create a dataframe (except target col)</li>
+<li>Create combined original dataframe with polynomial dataframe</li>
+<li>Use StandardScaler to scale all my features (except target col)</li>
+<li>Add back target column and I am ready to build my model</li>
 
 
 TECHNIQUES FOR CAPSTONE <br/>
