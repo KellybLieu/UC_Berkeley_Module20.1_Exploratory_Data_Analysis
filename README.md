@@ -13,7 +13,7 @@ What other insights can I derive from the data?
 
 INITIAL EAD FINDINGS REPORT <br/>
 In the exploratory data analysis, I began by importing the necessary libraries and loading the dataset for an initial preview. I checked for missing values and visualized them using a heatmap, which revealed that the comments column contained the most nulls. Consequently, I removed irrelevant columns such as comment, note, sources, links, and id. I then focused on the numerical features, using histograms to examine the distribution of values. The analysis showed that the majority of years gained or lost ranged between 2 and 6 years, with a few extreme negative outliers (e.g., -25 and -10 years). Most contributing factors were associated with a low level of scientific strength. I used boxplots to further identify outliers, but the science column offered little insight due to its limited range of values (1, 2, and 3). Lastly, the pairplot did not reveal any meaningful correlations, as there were only two numerical features available.
-
+<br/>
 SECONDARY EAD FINDINGS REPORT <br/>
 Since the Initial EAD was inconclusive, I proceeded with further investigating whether the factors impacting lifestyle were impacted by strength of science and furthermore comparing the factors between genders. First, I computed the weighted impact of each factor by multiplying years gained/lost feature with strength of science as a number (1, 2, or 3). Immediately, it provided a better sense of magnitude and importance of each factor, with science-driven as a better indicator that the factor was more reliable although knowing that the actual years gained/lost in life is no longer accurate. 
 
@@ -24,9 +24,7 @@ I then continue my analysis to compare the factors that were relevant to women. 
 There is overlap in most of the longevity factors between both genders. The key difference is for a men, spending time with women was ranked #7 (a male-specific factor), whereas women did not have that factor. As a trade-off the barplot for women had "Pets - dogs" ranked at #10, where it was #13 in the barplot for both genders.
 
 For the top contributors of reduced longevity are shared between both plots, indicating universal risks that are science-based regardless of gender. To name a few: 1) Mental illness; 2) Smoking; 3) Obesity; 4) Alcohol (heavy abuse). The top 4 seem to have the heaviest impact, whereas the subsequent 4 seem insignificant. 
-
-Furthermore, I will add that I attempted to feature engineer my dataset, however this dataset is very small and it was not necessary to use one-hot encoding nor polynomial features. It was insightful and I plan on 
-
+<br/>
 FEATURE ENGINEERING<br/>
 The next sequence of steps is to perform feature engineering to prepare my dataset for building a model. Below I will start with a copy of the previous dataframe and perform the following:<br/>
 
